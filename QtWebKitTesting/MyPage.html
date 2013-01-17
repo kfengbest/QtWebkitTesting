@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>PLM Dashboard Test Page</h1>
+
+<script>
+function callMethod()
+{
+    value = exposedToJava.incrementCounter();
+    alert('Current Value: ' + value);
+}
+</script>
+
+<button onclick="callMethod();">Invoke C++ Method</button>
+
+</body>
+</html>
